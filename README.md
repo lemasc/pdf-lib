@@ -48,6 +48,8 @@
 
 > **Learn more at [pdf-lib.js.org](https://pdf-lib.js.org)**
 
+This fork has been made to fix issues about Thai Text filling, and has been published under a different name `lemasc-pdf-lib`.
+
 ## Table of Contents
 
 - [Features](#features)

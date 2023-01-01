@@ -169,8 +169,7 @@ export const layoutMultilineText = (
     fontSize = computeFontSize(lines, font, bounds, true);
   }
   const height = font.heightAtSize(fontSize);
-  const lineHeight = height + height * 0.2;
-
+  const lineHeight = height + height * 0.01;
   const textLines: TextPosition[] = [];
 
   let minX = bounds.x;

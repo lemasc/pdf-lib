@@ -446,12 +446,12 @@ export const defaultTextFieldAppearanceProvider: AppearanceProviderFor<PDFTextFi
   let textLines: TextPosition[];
   let fontSize: number;
 
-  const padding = textField.isCombed() ? 0 : 1;
+  const padding = textField.isCombed() ? 0 : 3;
   const bounds = {
     x: borderWidth + padding,
     y: borderWidth + padding,
     width: width - (borderWidth + padding) * 2,
-    height: height - (borderWidth + padding) * 2,
+    height: height - (borderWidth + padding - 2) * 2,
   };
   if (textField.isMultiline()) {
     const layout = layoutMultilineText(text, {
